@@ -1,0 +1,53 @@
+.App {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+.info{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+.info input{
+  width: 300px;
+  height: 30px;
+}
+.button1{
+  width: 200px;
+  font-size: large;
+  font-weight: bold;
+  padding: 0.5%;
+}
+.button2{
+  width: 300px;
+  font-size: large;
+  font-weight: bold;
+  padding: 0.5%;
+}
+
+.button1:hover{
+  cursor: pointer;
+}
+
+.button2:hover{
+  cursor: pointer;
+}
+
+.emp_style{
+width: 800px;
+height: 200px;
+border: 1px solid black;
+/*padding-left: 20%;*/
+display: flex;
+align-items: center;
+font-family: 'Courier New', Courier, monospace;
+margin: 10px;
+}
+
+.emp_style h3{
+  margin: 20px;
+  align-items: center;
+}
